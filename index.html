@@ -3,72 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saim Books</title>
+    <title>Saim Library – Free & Premium Ebooks</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background: #f5f5f5;
+            background: #f2f2f2;
             color: #222;
         }
         header {
-            background: #2c3e50;
-            color: white;
-            padding: 20px;
+            background: #1c2833;
+            padding: 25px;
             text-align: center;
-            font-size: 28px;
+            color: white;
+            font-size: 30px;
+            letter-spacing: 1px;
         }
-        section {
-            padding: 40px;
-            max-width: 900px;
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 40px;
+            color: #1c2833;
+        }
+        .hero p {
+            font-size: 18px;
+            max-width: 700px;
             margin: auto;
-            background: white;
-            margin-top: 30px;
-            border-radius: 10px;
-        }
-        h2 {
-            color: #2c3e50;
+            line-height: 1.6;
         }
         .btn {
             display: inline-block;
-            padding: 12px 20px;
-            background: #27ae60;
+            padding: 14px 22px;
+            background: #28a745;
             color: white;
             text-decoration: none;
             border-radius: 8px;
-            margin-top: 15px;
-            font-size: 16px;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .ebooks-section {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .ebook-card {
+            background: white;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+        }
+        .ebook-card h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .ebook-card p {
+            margin: 10px 0;
+        }
+        .ebook-btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #1c7ed6;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
         }
         footer {
             text-align: center;
-            padding: 18px;
-            margin-top: 40px;
-            background: #2c3e50;
+            padding: 20px;
+            background: #1c2833;
             color: white;
+            margin-top: 50px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    Welcome to My Books Place
+    SAIM LIBRARY – EBOOK COLLECTION
 </header>
 
-<section>
-    <h2>About Me</h2>
-    <p>
-        This is my personal website created using GitHub Pages.  
-        I will add more content here soon!
-    </p>
-</section>
+<div class="hero">
+    <h1>Welcome to Saim Library</h1>
+    <p>Your hub for ebooks — fiction, non-fiction, stories, guides, and more.  
+    Download free books or read premium ebooks written by me.</p>
 
-<section>
-    <h2>Contact</h2>
-    <p>Email: samrajansari4@gmail.com</p>
-</section>
+    <a href="#ebooks" class="btn">Browse Ebooks</a>
+</div>
+
+<div class="ebooks-section" id="ebooks">
+
+    <div class="ebook-card">
+        <h3>📘 03: Love Doesn't need years to feel real</h3>
+        <p>You know after reading this book is How actually a love looks like? </p>
+        <a href="#" class="ebook-btn">Download</a>
+    </div>
+
+    <div class="ebook-card">
+        <h3>📗 Ebook Title 2</h3>
+        <p>This is another ebook description. Add links to PDF, Google Drive, or KDP.</p>
+        <a href="#" class="ebook-btn">Buy / Read</a>
+    </div>
+
+</div>
 
 <footer>
-    © 2025 My Website. All rights reserved.
+    © 2025 Saim Library. All rights reserved.
 </footer>
 
 </body>
